@@ -20,7 +20,7 @@
   "include": [
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "app/_layout.js"  ],
   "exclude": [
     "node_modules"
   ],
