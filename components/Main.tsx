@@ -43,11 +43,8 @@ const Main = () => {
   };
 
   useEffect(() => {
-    console.log("cargando");
     getCharactersState();
-    console.log("llamada", loading);
   }, []);
-  console.log("finalizado");
 
   return (
     <View
