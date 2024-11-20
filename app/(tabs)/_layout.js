@@ -1,7 +1,6 @@
 import { Tabs } from "expo-router";
 
 export default function TabsLayout() {
-  console.log("tabs");
   return (
     <Tabs
       screenOptions={{
@@ -13,6 +12,13 @@ export default function TabsLayout() {
         options={{
           title: "index",
           tabBarLabel: "index",
+        }}
+      />
+      <Tabs.Screen
+        name="home"
+        options={{
+          title: "home",
+          tabBarLabel: "home",
         }}
       />
     </Tabs>
